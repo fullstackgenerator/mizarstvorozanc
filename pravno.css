@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  background-image: url(images/ostalo/legal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;  
+}
+
+.white-background {
+  position: relative;
+  background-color: rgb(219, 219, 219, 0.8);
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+.text {
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat";
+  word-wrap: break-word;
+  text-align: justify;
+  letter-spacing: 0.5;
+  line-height: 160%;
+}
+
+.footer {
+  font-family: "Montserrat", "Roboto";
+  font-size: 13px;
+  position:fixed;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index:1056;
+  bottom:0%;
+  display:block;
+  min-width:100%;
+}
+
+a:link,
+a:visited {
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: rgb(221, 221, 221);
+  text-decoration: none;
+}
+
+@media(max-width:767px) {
+
+  body {
+    height: 100vh;
+  }
+
+  .white-background {
+    margin-top: 20vh;
+    height: auto;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding: 10% 10% 2% 10%;
+  }
+}
+
+@media(min-width:768px){
+
+  body {
+    height: 100vh;
+  }
+
+  .white-background {
+    margin-top: 35vh;
+    height: auto;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding: 5%;
+  }
+}
+
+@media(min-width:820px){
+
+  body {
+    height: 100vh;
+  }
+
+  .white-background {
+    margin-top: 36vh;
+    height: auto;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding: 5%;
+  }
+}
+
+@media(min-width:1024px){
+
+  body {
+    height: 100vh;  
+  }
+
+  .white-background {
+     margin-top: 39vh;
+    height: auto;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding-top: 5%;
+  }
+}
+
+@media(min-width: 1280px) and (max-height: 720px){
+
+  body {
+    height: 100%;
+  }
+  
+  .white-background {
+    margin-top: 30vh;
+    height: 44vh;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding: 3.5%;
+  }
+}
+
+@media(min-width: 1280px) and (min-height: 800px){
+
+  body {
+    height: 100%;
+  }
+
+  .white-background {
+    margin-top: 30vh;
+    height: 44vh;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding: 3.5%;
+  }
+}
+
+@media(min-width:1368px) {
+
+  body {
+    height: 100%;
+  }
+
+  .white-background {
+    margin-top: 27vh;
+    height: 47.5vh;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding: 3.5%;
+  }
+}
+
+@media(min-width:1440px) {
+
+  .white-background {
+    margin-top: 32.5vh;
+    height: 36.5vh;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding: 3.5%;
+  }
+}
+
+@media(min-width:1536px) {
+
+  .white-background {
+    margin-top: 34vh;
+    height: 32vh;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding: 3.5%;
+  }
+}
+
+@media(min-width:1600px) {
+
+  .white-background {
+    margin-top: 34vh;
+    height: 37.5vh;
+  }
+  
+  .text {
+    font-size: 18px;
+    padding: 3.5%;
+  }
+}
+
+@media(min-width:1920px) {
+
+  .white-background {
+    margin-top: 38vh;
+    height: 24vh;
+  }
+  
+  .text {
+    font-size: 19px;
+    padding: 3.5%;
+  }
+}
